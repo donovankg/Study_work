@@ -1,0 +1,40 @@
+p{
+	font-size: 14px;
+}
+.col{
+	width: 50%;
+}
+.btn {
+  font-size: 16px;
+
+}
+.btn-danger {
+  background: red;
+
+}
+.btn-success {
+  background: green;
+}
+#examplebox{
+	margin: 10px;
+	background-color: lightgrey;
+	width: 800px;
+	border-style: solid;
+	border-width: 1px;
+}
+.hotdog p.mustard {
+  background: brown;
+}
+.hotdog p {
+  background: yellow;
+}
+.task {
+  background: hsla(0, 100%, 25%, .25);
+}
+.count {
+  background: hsla(60, 100%, 50%, 1);
+}
+.banner {
+  font-size: 14px;
+  width: 5em;
+}

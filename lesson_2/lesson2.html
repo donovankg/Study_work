@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
+		<title>Lesson 2 notes</title>
+	</head>
+	<body>
+		<h1>div and span elements</h1>
+		<p>  <a href="http://learn.shayhowe.com/html-css/getting-to-know-html/#divs-and-spans">This</a> is the web page used for this lesson
+		</p>
+		<div id="divandspan">
+			<h3>Div is a block-level element</h3>
+			<p id="first">meaning that it can hold a group of information like text, images, links etc</p>
+			<h3>Span is an inline level</h3>
+			<p id="first">So its normally just used for a small group of text inside the block-level element.</p>
+			<p id ="example1">a div with a ID of divandspan <b> &ltdiv id="divandspan"&gt </b> was placed at the start of the grey box and <br>
+			<b>&lt/div&gt</b> was placed to end the div that made this grey box.<br>
+			the CSS use is: <b>#divandspan{background-color: grey; color: blue;}</b><br>
+			an example of a span would be <span style ="color:red">this</span>.<br>
+			the code used would be <b>&ltspan style ="color:red"&gtthis&lt/span&gt</b>.
+		</p>
+		</div>
+		<div id = "header_example">
+			<h1>Heading Level 1</h1>
+			<h2>Heading Level 2</h2>
+			<h3>Heading Level 3</h3>
+			<h4>Heading Level 4</h4>
+			<h5>Heading Level 5</h5>
+			<h6>Heading Level 6</h6>
+		</div>
+
+		<div id="paragraph_demo">
+			<p>Steve Jobs was a co-founder and longtime chief executive officer at Apple. On June 12, 2005, Steve gave the commencement address at Stanford University.</p>	
+			<p>In his address Steve urged graduates to follow their dreams and, despite any setbacks, to never give up&ndash;advice which he sincerely took to heart.</p>
+		</div>
+		<div id ="strong">
+			<!-- Strong importance -->
+			&ltstrong&gt is used to make the text shows importance to the text
+			<p><strong>Caution:</strong> Falling rocks.</p>
+			<!-- Stylistically offset -->
+			&ltb&gt makes the text bold.
+			<p>This recipe calls for <b>bacon</b> and <b>baconnaise</b>.</p>
+		</div>
+		<div id="Italicize">
+			Like strong and bold, Italicize can be used in the same way: the first example is &ltem&gt and the second is &lti&gt.
+			<!-- Stressed emphasis -->
+			<p>I <em>love</em> Chicago!</p>
+			<!-- Alternative voice or tone -->
+			<p>The name <i>Shay</i> means a gift.</p>
+		</div>
+		<h3>Building Structure</h3>
+		<p>The windows in each area show the CSS and divs used to make this</p>
+		<div id="fake_page">#fake_page{	margin: 10px; background-color: grey; width: 850px; 
+			<div id="header1">header<br>#header1{margin: 10px; background-color: red; width: 830px; height: 50px;}</div>
+			<div id="aside1">aside<br>#aside1{margin-right: 10px;	float: right; background-color: green; width: 410px; height: 300px;}</div>
+			<div id="section1">section<br>#section1{margin-left: 10px; background-color: darkred; width: 410px; height: 300px;}
+				<div id="article1">article<br>#article1{ margin-top: 100px; margin-left: 50px; background-color: orange; width: 250px; height: 100px;}</div></div>
+			<div id="footer1">footer<br>#footer1{margin: 10px; background-color: yellow; width: 830px; height: 50px;}</div>
+		</div>
+
+		Practice examples <a href="practice.html">here</a> <br>
+
+
+		<h3>links, Relative vs absolute paths</h3>
+		<p>Relative are links to pages with in the your own website that your don't have to show the full path<br>
+		for example you would go from index.html to main.html<br>
+		Absolute paths could be used on a site linking to another page on the same server but normally its used for <br>
+		exturnal websites (like google.com etc)</p>
+
+		<h3>linking to an email</h3>
+		<p><a href="mailto:testing@email.com">email me</a><br>
+			to link to an email all you do is do &lta href="mailto:testing@email.com"&gtemail me&lt/a&gt
+		</p>
+
+		<h3>Link opened in a new window</h3>
+		<p>all you do is add a attribute target =_blank into the element.<br>
+			<a href ="http://google.com" target ="_blank">Goggle.com</a><br>
+			&lta href ="http://google.com" target ="_blank"&gtGoggle.com&lt/a&gt
+		</p>
+		<h3>Linking to other parts of the same page</h3>
+		<p>your going to make a like like before but you'll use a # and a id. Then you will place an ID for the link to find with in the page<br>
+		this <a href ="#header_example">link</a> will take you back to the header examples at the top. <br>
+		the code used is  &lta href ="#header_example"&gtlink&lt/a&gt and the div for the header box has a ID of "#header_example".
+		</p>
+
+	</body>
+</html>

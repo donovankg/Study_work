@@ -1,0 +1,81 @@
+body,
+h6{
+	margin: 10;
+}
+h1{
+	margin-top: 10;
+}
+#first{
+	margin-left: 10px;
+}
+#divandspan{
+	margin: 10px;
+	background-color: grey;
+	color: blue;
+	width: 850px;
+	height: 300px;
+}
+#example1{
+	margin: 5px;
+	background-color: lightgrey;
+	width: 800px;
+	height: 130px;
+}
+#header_example{
+	margin: 10px;
+	background-color: green;
+	width: 850px;
+}
+#paragraph_demo{
+	margin: 10px;
+	background-color: lightblue;
+	width: 850px;
+}
+#strong{
+	margin: 10px;
+	background-color: red;
+	width: 850px;
+}
+#Italicize{
+	margin: 10px;
+	background-color: orange;
+	width: 850px;	
+}
+#fake_page{
+	margin: 10px;
+	background-color: grey;
+	width: 850px;
+	
+}
+#header1{
+	margin: 10px;
+	background-color: red;
+	width: 830px;
+	height: 50px;
+}
+#section1{
+	margin-left: 10px;
+	background-color: darkred;
+	width: 410px;
+	height: 300px;
+}
+#aside1{
+	margin-right: 10px;
+	float: right;
+	background-color: green;
+	width: 410px;
+	height: 300px;
+}
+#article1{
+	margin-top: 100px;
+	margin-left: 50px;
+	background-color: orange;
+	width: 250px;
+	height: 100px;
+}
+#footer1{
+	margin: 10px;
+	background-color: yellow;
+	width: 830px;
+	height: 50px;
+}

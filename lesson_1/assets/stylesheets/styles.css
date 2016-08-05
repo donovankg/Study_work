@@ -1,0 +1,17 @@
+body, 
+p {
+	margin: 10;
+	color: darkblue;
+	font-size: 16px;
+}
+
+h1{
+	margin-top: 10;
+}
+h3{
+	color: black;
+}
+
+#Selectors{
+	color: red;
+}
